@@ -1736,6 +1736,7 @@ sssctl_SOURCES = \
     src/tools/sssctl/sssctl_sifp.c \
     src/tools/sssctl/sssctl_config.c \
     src/tools/sssctl/sssctl_user_checks.c \
+    src/tools/sssctl/sssctl_access_report.c \
     $(SSSD_TOOLS_OBJ) \
     $(NULL)
 sssctl_LDADD = \
